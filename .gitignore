@@ -1,0 +1,22 @@
+# Backend
+target/
+build/
+.mvn/
+*.jar
+*.war
+.idea/
+*.iml
+
+# Frontend 
+node_modules/
+dist/
+.env
+.env.local
+npm-debug.log*
+
+#sql
+sales.sql
+
+# Systemowe
+.DS_Store
+*.log
