@@ -59,3 +59,12 @@ Access the app at: http://localhost:5137
 ## 🔑 Default Login Credentials
 - **Username**: admin
 - **Password**: admin
+
+## 🚧 TODO & Future Improvements
+
+### JWT Security Enhancements
+- [ ] Replace fixed-duration JWT tokens with dynamic expiration  
+- [ ] Implement token revocation list (blacklist) for logged-out users  
+- [ ] Add refresh token mechanism  
+- [ ] Store tokens in HTTP-only cookies (instead of localStorage)  
+- [ ] Implement token rotation for sensitive operations  
